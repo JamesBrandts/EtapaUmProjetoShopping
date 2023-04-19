@@ -12,10 +12,10 @@ public class Loja {
         
     }
     
-    public Loja (int quantidadeFuncionarios, String nome) {        
+    public Loja ( String nome, int quantidadeFuncionarios) {        
         this.nome = nome;
         this.quantidadeFuncionarios = quantidadeFuncionarios;
-        
+        this.salarioBaseFuncionario = -1;
     }
     
     public String getNome() {
